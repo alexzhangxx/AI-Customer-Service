@@ -8,8 +8,6 @@ Services: API Gateway, Lambda, Cognito, IAM
 Requirements:
 Create a Cognito User Pool
 Create a Cognito Identity Provider for the User Pool above
-Create an API Gateway API using the following Swagger specification:
-https://github.com/001000001/aics-columbia/blob/master/swagger.json (Links to an external site.)Links to an external site. 
 
 Note: You can visualize this file at http://editor.swagger.io/ (Links to an external site.)Links to an external site.. Swagger is an API documentation tool.
 Implement the following APIs:
@@ -47,8 +45,6 @@ Chat Layer:
 
 Services: ElasticBeanstalk, Lex, Lambda, S3
 Requirements:
-Build on top of the sample Node.js chat server to handle back and forth chat
-https://github.com/001000001/aics-columbia/tree/master/chat-server (Links to an external site.)Links to an external site.
 Deploy the Node.js server to ElasticBeanstalk
 Use Lex to disambiguate the user utterances
 Add at least 3 intents
