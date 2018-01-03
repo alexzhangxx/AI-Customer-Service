@@ -9,7 +9,6 @@ Requirements:
 Create a Cognito User Pool
 Create a Cognito Identity Provider for the User Pool above
 
-Note: You can visualize this file at http://editor.swagger.io/ (Links to an external site.)Links to an external site.. Swagger is an API documentation tool.
 Implement the following APIs:
 /context GET
 Retrieves all the context events for a particular user
